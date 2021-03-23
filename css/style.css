@@ -1,0 +1,500 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ranchers&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{ 
+    margin:0 auto;
+    max-width:100%;
+    max-height: 100vh;
+  
+    background-color: #8cbec5;
+    font-family: 'Poppins', sans-serif; ;
+   
+}
+
+span{
+    font-family: 'Ranchers', cursive;
+    font-size:20px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+   
+}
+.white{
+  color: #fff;
+  opacity: 70%;;
+ 
+}
+a{
+    color:#363636;
+}
+
+.ImageAbout{
+  height: 100%;;
+    width:250px;
+}
+
+.AboutUs{
+  
+    background-color: #f5c0c0;
+ 
+    border: 1px solid rgb(201, 196, 196);
+    border-radius:5px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header{
+    text-align: center;
+    color:#fff;
+    margin-bottom:1rem;
+}
+
+.aboutP , .aboutPHelpline{
+margin-top:1rem;
+color:#363636;
+line-height: 35px;;
+margin-right: 1rem;
+font-weight: 400;
+
+}
+/* carousel */
+.CarouselBox{
+    
+    background-color: #f5c0c0;
+    border-radius:5px; ;
+    border: 1px solid rgb(201, 196, 196);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.imageCrsl{
+    width:60%;
+    height: 60%;
+}
+
+hr{
+    margin:1rem;
+   
+    color:#fff;
+}
+h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;;
+}
+/* events */
+.boxEvents{
+    background-color: #f5c0c0;
+
+        border-radius:5px; ;
+        border: 1px solid rgb(201, 196, 196);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+/* help box */
+
+.boxHelp{
+    background-color: #f5c0c0;
+   
+        border-radius:5px; ;
+        border: 1px solid rgb(201, 196, 196);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ImageAbout2{
+   width:250px;
+   position: relative;
+ margin-top: 1rem;
+ margin-left:1rem;
+}
+
+
+/* P of help line and events */
+
+.aboutPHelpline , .aboutP{
+    margin-left:1rem;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    margin:1rem;
+   
+}
+
+.social{
+    text-align: center;
+
+}
+
+i{
+     font-size:30px;
+  
+   
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+.links:hover{
+    background-color: #f5c0c0;
+}
+ul{
+   list-style-type:none;
+   display: flex;
+   flex-direction: column;
+   margin:0 auto;
+}
+.lastlink{
+    color:#363636;
+}
+.lastlink:hover{
+  
+ text-decoration: none;
+}
+/*  */
+/* AboutUS.html page */
+
+
+#aboutusbox{
+    background-color: #f5c0c0;
+   
+    border-radius:5px; ;
+    border: 1px solid rgb(201, 196, 196);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom:3rem;
+}
+#imgpage2{
+    width:300px;
+}
+
+#Bigwords{
+    font-weight: 400;
+    font-size:28px;
+    
+   
+}
+
+.smallwords{
+    color:#363636;
+    padding:1rem;
+}
+
+/* */
+
+/* ourwork */
+.listofwork{
+list-style-type: disc;
+color: #363636;
+opacity:70%;
+margin-left:1rem;
+}
+
+.listofwork li{
+    margin:1rem;
+  padding: 1rem;;
+}
+/* our team */
+
+.card-body{
+    background-color: #f5c0c0;
+    
+}
+
+.card-text{
+    color: #363636;
+  
+    font-size:20px;
+}
+.card-title{
+    color: #fff;
+    font-weight: 400;
+    font-size:27px;
+    
+}
+
+/* Agenda */
+
+.agenda { 
+    background-color: #f5c0c0;
+   
+    border-radius:5px; ;
+    border: 1px solid rgb(201, 196, 196);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom:3rem;
+ }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; color: #fff;}
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+ 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+ 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px;  color: #363636;} 
+
+
+/* Events */
+.agenda .agenda-events {  color:#363636; } 
+
+
+
+
+/* donation form  */
+.theme-blue {
+    color: #427bb8;
+  }
+  .theme-orange {
+    color: #cc851c;
+  }
+  .theme-green {
+   color: #8ab042;
+  }
+  .theme-grey {
+    color: #666666;
+  }
+  .theme-white {
+    color: #fff;
+  }
+  .theme-background-blue {
+    background-color: #427bb8;
+    color: #fff;
+  }
+  .theme-background-orange {
+    background-color: #cc851c;
+    color: #fff;
+  }
+  .theme-background-green {
+    background-color: #8ab042;
+    color: #fff;
+  }
+  .theme-background-grey {
+    background-color: #666666;
+    color: #fff;
+  }
+  .theme-background-white {
+    background-color: #fff;
+    color: #4c4c4c;
+  }
+  .donate-bar {
+    padding: 32px 23px 28px;
+  }
+  .donate-bar > div:first-child {
+    
+    font-weight: bold;
+    border-right: 1px dotted #2a4f76;
+    margin-top: 19px;
+    font-size: 25px;
+    padding: 0;
+  }
+  .donate-buttons>li>a {
+    font-size: 17px;
+   
+    font-weight: bold;
+    position: relative;
+    display: block;
+    padding: 10px 3px;
+    border-radius: 5px;
+  }
+  .btn-blue-other,
+  .btn-blue {
+    
+    font-weight: bold;
+    background-color: #427bb8;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 0;
+    width: 75px;
+    height: 37px;
+    margin-top: 8px;
+  }
+  .btn-green {
+    
+    font-weight: bold;
+    background-color: #8ab042;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 0;
+    width: 114px;
+    height: 37px;
+    margin-top: 8px;
+  }
+  #other-input {
+    display: none;
+  }
+  #other-input input {
+    position: relative;
+    font-weight: bold;
+    background-color: #fff;
+    color: #427bb8;
+    border-radius: 5px;
+    border: 0;
+    border: 5px solid #427bb8;
+    padding: 0 0 3px 15px;
+    width: 75px;
+    height: 37px;
+    margin: 18px 3px 0;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+   margin: 0; 
+  }
+  #other-input span {
+    font-family: inherit;
+    font-weight:bold;
+    color: #427bb8;
+    position: absolute;
+    padding: 23px 12px;
+    z-index: 10;
+    pointer-events: none;
+  }
+  .impact {
+    font-size: 1.1em;
+    font-weight: bold;
+    clear: both;
+  }
+  .nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .donate-buttons .active {
+    background-color: #fff;
+    border: 5px solid #427bb8;
+    color:  #427bb8;
+  }
+  .donate-buttons:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+  }
+  .donate-buttons li:last-child {
+    font-size: 17px;
+    line-height: 37px;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+#donate-box{
+    background-color: #f5c0c0;
+   
+    border-radius:5px; ;
+    border: 1px solid rgb(201, 196, 196);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom:3rem;
+}
+
+/* map */
+.map{
+ 
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 2rem;;
+}
+/* form */
+.bgcolor{
+    background-color: #f5c0c0;
+}
+
+button{
+  padding: 0.5rem;
+  background-color: #f5c0c0;
+   
+    border-radius:5px; ;
+    border: 1px solid rgb(201, 196, 196);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom:3rem;
+}
+
+/* media */
+@media only screen and (min-width: 600px){
+    ul{
+        display: flex;;
+        flex-direction:row;
+        justify-content: space-between;
+        margin:0.5rem; 
+        margin-bottom:1rem;
+    }
+    .img-fluid{
+      text-align: center;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1000px){
+    .ImageAbout2 {
+        position: relative;
+        left:200px;
+     }
+     .ImageAbout{
+        position:relative;
+        left:200px;
+    }
+     .ourWork{
+         margin-top:1rem;
+     }
+     #Bigwords{
+         margin-top:3.5rem;
+     }
+
+     #Bigwords2{
+        font-weight: 400;
+        font-size:28px;
+        width:80%;
+        margin: 0 auto;
+        margin-top:2rem;
+        position:relative;
+        right: 4rem;;
+     }
+     .listofwork{
+        
+         width:30%;
+        
+        display: flex;
+        flex-direction: column;
+     
+     }
+     #listofwork li{
+      
+        padding: 0.5rem;
+     }
+    
+}
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
+}
